@@ -118,3 +118,16 @@ h3.kunskaper{
 #intro{
     color: var(--vit);
 }
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--vit);
+
+}
+h4{
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    color: var(--vit);
+}
