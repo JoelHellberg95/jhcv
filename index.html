@@ -5,60 +5,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cv Joel Hellberg</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="script" href="index.js">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!--Namn & Arbetsområde-->
     <header>
-        <img src="img/jhlogo.png" alt="Joel Logo" width="150px" height="150px">
-        <ul>
-            <li><a href="#kunskap">Kunskaper</a></li>
-            <li><a href="#skillist">Erfarenhet</a></li>
-            <li><a href="#"></a></li>
-        </ul>
+        <div class="navbar">
+            <img src="img/jhlogovit.png" alt="Joel Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html">Hem</a></li>
+                    <li><a href="cv.html">Om mig/CV</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div id="intro">
-        <div id="namn">
+        
+        <div class="namn">
+            <img class="bild" src="img/jh.jpg" alt="">
             <h1>Joel Hellberg</h1>
         </div>
-        <di1v id="desc">
-            <h3>Webbdesigner & .Net utvecklare under utbildning.</h3>
+        <div class="desc">
+            <h2>Webbdesigner & .Net utvecklare under utbildning.</h2>
+            <p>
+                Jag har alltid gillat utmaningar och att lära mig mer.<br> 
+                Min stora passion har legat i att designa hemsidor & logotyper.<br>
+                Jag har skapat hemsidor i HTML & CSS samt Wordpress.
+                Utbildar mig inom .net Webbutveckling och JavaScript.<br>
+                Den här sidan kommer uppdateras mer och mer men detta får bli starten på resan.
+            </p>
         </div>
-    </div>   
-    <div class="card">
         
-    </div>
-    <!--Kunskaper-->
-    <div id="kunskap">
-        <h4>Kunskaper</h4>
-        <div id="programroll">
-            <p id="adobe">Xd, Photoshop, Illustrator, Indesign</p>
-            <p id="code">HTML, CSS, JS, C#, .Net</p>
+    </div>   
+   
+    <!--Kunskaper--> 
+    <h3 class="kunskaper">Kunskaper</h3>
+    <div id="kodning">
+       
+        <div class="card">
+            <div class="item">
+                <img src="img/HTML5.png" alt="HTML 5">
+            </div>
+            <div class="stars">
+            <p class="fa fa-star checked"></p>
+            <p class="fa fa-star checked"></p>
+            <p class="fa fa-star checked"></p>
+            <p class="fa fa-star checked"></p>
+            <p class="fa fa-star checked"></p>
+            </div>
         </div>
-        <!--Arbetserfarenhet-->
-        <div id="skillist">
-        <h3>Övrigt</h3>
-        <ul>
-            <li>Webbdesigner 2011-Aktiv</li>
-            <li>Webbutvecklare 2015-Aktiv</li>
-            <li>Fiberinstallatör 2015</li>
-            <li>Fastighetsskötare 2016</li>
-            <li>Egenföretagare E-handel 2017-2019</li>
-            <li>Egenföretagare Energibesparing inr vatten 2019-2020</li>
-            <li>Egenföretagare IT-Support 2019-2021</li>
-            <li>Lagerarbetare 2021</li>
-            <li>Administratör 2022-Aktiv</li>
-        </ul>
-        <!--Utbildning-->
-        <div id="utbildning">
-        <h3>Utbildning</h3>
-        <ul>
-            <li>Grundskola</li>
-            <li>Gymnasie Kylteknik</li>
-            <li>Högskola Pågående .Netutvecklare</li>
-        </ul>
-            
+        <div class="card">
+             <div id="item">
+                <img src="img/CSS3.png" alt="Css 3">
+             </div>
+             <div class="stars">
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star"></p>
+                </div>
+        </div>
+        <div class="card">
+            <div id="item">
+                <img src="img/JavaScript.png" alt="JavaScript">
+            </div>
+            <div class="stars">
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star"></p>
+                <p class="fa fa-star"></p>
+                <p class="fa fa-star"></p>
+                </div>
+        </div>
+        <div class="card">
+            <div id="item">
+                <img src="img/c.png" alt="C#">
+            </div>
+            <div class="stars">
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star"></p>
+                <p class="fa fa-star"></p>
+                <p class="fa fa-star"></p>
+                <p class="fa fa-star"></p>
+                </div>
+        </div>
+        <div class="card">
+            <div id="item">
+                <img src="img/net.png" alt=".Net">
+            </div>
+            <div class="stars">
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star"></p>
+                <p class="fa fa-star"></p>
+                <p class="fa fa-star"></p>
+                <p class="fa fa-star"></p>
+                </div>
+        </div>
+        <div class="card">
+            <div id="item">
+                <img src="img/Wordpress.png" alt="Wordpress">
+            </div>
+            <div class="stars">
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star"></p>
+                </div>
         </div>
     </div>
+    <div id="adobe">
+        <div class="card">
+            <div id="item">
+                <img src="img/Photoshop.png" alt="Photoshop">
+            </div>
+            <div class="stars">
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                </div>
+        </div>
+        <div class="card">
+            <div id="item">
+                <img src="img/Illustrator.png" alt="Illustrator">
+            </div>
+            <div class="stars">
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star"></p>
+                </div>
+        </div>
+        <div class="card">
+            <div id="item">
+                <img src="img/XD.png" alt="XD">
+            </div>
+            <div class="stars">
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                </div>
+        </div>
+        <div class="card">
+            <div id="item">
+                <img src="img/Indesign.png" alt="Indesign">
+            </div>
+            <div class="stars">
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star checked"></p>
+                <p class="fa fa-star"></p>
+                <p class="fa fa-star"></p>
+                </div>
+        </div>
+    </div>       
+    </div>
+    <footer>
+        <a href="tel:070-2336047"><img src="img/telefon.png" alt="Telefon"></a>
+        <a href="mailto:Joel@hellbergswebbmedia.se"><img src="img/e-post.png" alt="Epost"></a>
+        <a href="https://github.com/JoelHellberg95"><img src="img/GithubVit.png" alt="Githublogo"></a>
+    </footer>
 </body>
 </html>

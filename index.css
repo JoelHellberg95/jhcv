@@ -1,0 +1,120 @@
+:root{
+    --mörkblå:#0a1223;
+    --blå:#205cbd;
+    --gråblå:#425872;
+    --ultralättblå:#bbcfeb;
+    --vit:#dce3ed;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--gråblå);
+    font-family: 'Poppins';
+}
+
+header{
+    width: 100%;
+    background-color: var(--mörkblå);
+}
+.navbar{
+    color: var(--vit);
+    text-align: center;
+    padding: 0.75em 1em;
+    text-decoration: none;
+    font-size: 1em;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 1.25em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--vit);
+}
+.logo{
+    width: 6em;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+    margin-bottom: 2vh;
+}
+footer .footerlogo{
+    width:3em;
+}
+footer a{
+    text-decoration: none;
+    color: var(--vit);
+}
+nav ul li a.active{
+    color:var(--blå);
+}
+#intro{
+
+}
+.namn{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    gap: 2vh;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+
+}
+.namn img{
+    border-radius: 14px;
+    height: 250px;
+    width: 250px;
+}
+.desc{
+    text-align: center;
+}
+h3.kunskaper{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    color: var(--vit);
+    margin-top: 15vh;
+    flex-wrap:wrap ;
+}
+#kodning{
+    min-width: fit-content;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+#adobe{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+.card{
+    display: inline-block;
+    margin-right: 5vh;
+}
+.card .checked{
+    display: inline-flex;
+}
+
+.checked {
+    color: orange;
+    
+  }
+.stars{
+    display: flex;
+    justify-content: center;
+    gap:0.3em;
+}
+#intro{
+    color: var(--vit);
+}
